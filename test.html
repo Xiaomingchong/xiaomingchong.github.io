@@ -1,238 +1,218 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>股票数据分析</title>
-    <style>
-        body {
-            font-family: 'Microsoft YaHei', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            background-color: #f5f5f5;
-            height: 100vh;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>股票数据分析</title>
+  <style>
+    body {
+      font-family: 'Microsoft YaHei', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      background-color: #f5f5f5;
+      height: 100vh;
+    }
 
-        .sidebar {
-            width: 25%;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            overflow-y: auto;
-        }
+    .sidebar {
+      width: 25%;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow-y: auto;
+    }
 
-        .main-content {
-            flex: 1;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-        }
+    .main-content {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    }
 
-        .iframe-container {
-            flex: 1;
-            border: 1px solid #ddd;
-            background-color: #fff;
-            box-shadow: 0 0 5px rgba(0,0,0,0.1);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .details-container {
+      flex: 1;
+      border: 1px solid #ddd;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
 
-        .iframe-placeholder {
-            color: #999;
-            text-align: center;
-            padding: 20px;
-        }
+    .details-container h2 {
+      margin-bottom: 10px;
+    }
 
-        #stockFrame {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
+    .details-container a {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+    }
 
-        h1 {
-            color: #333;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
+    .details-container a:hover {
+      background-color: #0056b3;
+    }
 
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 16px;
-        }
+    h1 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
 
-        .stock-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 16px;
+    }
 
-        .stock-table th, .stock-table td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #eee;
-        }
+    .stock-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
 
-        .stock-table th {
-            background-color: #f8f8f8;
-            font-weight: bold;
-        }
+    .stock-table th, .stock-table td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
 
-        .stock-table tr:hover {
-            background-color: #f0f0f0;
-            cursor: pointer;
-        }
+    .stock-table th {
+      background-color: #f8f8f8;
+      font-weight: bold;
+    }
 
-        .up {
-            color: #f44336; /* 红色表示上涨 */
-        }
+    .stock-table tr:hover {
+      background-color: #f0f0f0;
+      cursor: pointer;
+    }
 
-        .down {
-            color: #4CAF50; /* 绿色表示下跌 */
-        }
+    .up {
+      color: #f44336;
+    }
 
-        .highlight {
-            font-weight: bold;
-            background-color: #e3f2fd;
-        }
-    </style>
+    .down {
+      color: #4CAF50;
+    }
+
+    .highlight {
+      font-weight: bold;
+      background-color: #e3f2fd;
+    }
+  </style>
 </head>
 <body>
-    <div class="sidebar">
-        <h1>股票数据分析</h1>
-        <select id="dataSelector">
-            <option value="up">上涨超过50%的股票</option>
-            <option value="down">下跌超过20%的股票</option>
-            <option value="high_gain">最新涨幅超过9.8%的股票</option>
-        </select>
-        <div id="dataContainer">
-            <table class="stock-table">
-                <thead>
-                    <tr>
-                        <th>代码</th>
-                        <th>名称</th>
-                        <th>价格</th>
-                        <th>涨幅</th>
-                        <th>行业</th>
-                    </tr>
-                </thead>
-                <tbody id="stockData">
-                    <!-- 数据将通过JavaScript动态填充 -->
-                </tbody>
-            </table>
-        </div>
+  <div class="sidebar">
+    <h1>股票数据分析</h1>
+    <select id="dataSelector">
+      <option value="up">上涨超过50%的股票</option>
+      <option value="down">下跌超过20%的股票</option>
+      <option value="high_gain">最新涨幅超过9.8%的股票</option>
+    </select>
+    <div id="dataContainer">
+      <table class="stock-table">
+        <thead>
+          <tr>
+            <th>代码</th>
+            <th>名称</th>
+            <th>价格</th>
+            <th>涨幅</th>
+            <th>行业</th>
+          </tr>
+        </thead>
+        <tbody id="stockData">
+          <!-- 数据将通过JavaScript动态填充 -->
+        </tbody>
+      </table>
     </div>
+  </div>
 
-    <div class="main-content">
-        <div class="iframe-container">
-            <div id="framePlaceholder" class="iframe-placeholder">
-                <h2>请点击左侧股票查看详情</h2>
-                <p>点击任意股票后，详情将在此处显示</p>
-            </div>
-            <iframe id="stockFrame" style="display: none;"></iframe>
-        </div>
+  <div class="main-content">
+    <div class="details-container" id="detailsBox">
+      <h2>请点击左侧股票查看详情</h2>
+      <p>点击任意股票后，相关链接将在此处提供</p>
     </div>
+  </div>
 
-    <script>
-        // 这里应该是你的JSON数据
-        const stockData = {
-            "up": [
-                // 上涨超过50%的股票数据...
-            ],
-            "down": [
-                // 下跌超过20%的股票数据...
-            ],
-            "high_gain": [
-                // 最新涨幅超过9.8%的股票数据...
-            ]
-        };
+  <script>
+    const stockData = {
+      "up": [],
+      "down": [],
+      "high_gain": []
+    };
 
-        // 生成股票详情链接（以东方财富网为例）
-        function getStockLink(code) {
-            // 根据不同交易所代码生成不同的链接
-            if (code.startsWith('6')) {
-                // 沪市股票
-                return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
-            } else if (code.startsWith('0') || code.startsWith('3')) {
-                // 深市股票
-                return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
-            } else {
-                // 其他情况
-                return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
-            }
+    function getStockLink(code) {
+      return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
+    }
+
+    function loadData() {
+      fetch('https://xiaomingchong.github.io/stock_details.json')
+        .then(response => response.json())
+        .then(data => {
+          stockData.up = data.up;
+          stockData.down = data.down;
+          stockData.high_gain = data.high_gain;
+          updateTable('up');
+        })
+        .catch(error => console.error('加载数据失败:', error));
+    }
+
+    function updateTable(type) {
+      const tableBody = document.getElementById('stockData');
+      tableBody.innerHTML = '';
+
+      const stocks = stockData[type] || [];
+
+      stocks.forEach(stock => {
+        const row = document.createElement('tr');
+
+        if (stock.rate > 9.8) {
+          row.classList.add('highlight');
         }
 
-        // 从文件加载数据
-        function loadData() {
-            fetch('https://xiaomingchong.github.io/stock_details.json')
-                .then(response => response.json())
-                .then(data => {
-                    stockData.up = data.up;
-                    stockData.down = data.down;
-                    stockData.high_gain = data.high_gain;
-                    updateTable('up'); // 默认显示上涨股票
-                })
-                .catch(error => console.error('加载数据失败:', error));
-        }
+        const rateClass = stock.rate >= 0 ? 'up' : 'down';
 
-        // 更新表格数据
-        function updateTable(type) {
-            const tableBody = document.getElementById('stockData');
-            tableBody.innerHTML = '';
+        row.innerHTML = `
+          <td>${stock.code}</td>
+          <td>${stock.name}</td>
+          <td>${stock.price}</td>
+          <td class="${rateClass}">${stock.rate}%</td>
+          <td>${stock.industry}</td>
+        `;
 
-            const stocks = stockData[type] || [];
+        row.addEventListener('click', () => {
+          const stockLink = getStockLink(stock.code);
+          const detailsBox = document.getElementById('detailsBox');
 
-            stocks.forEach(stock => {
-                const row = document.createElement('tr');
+          detailsBox.innerHTML = `
+            <h2>${stock.name}（${stock.code}）</h2>
+            <p>点击下方按钮在新标签页查看详细数据</p>
+            <a href="${stockLink}" target="_blank" rel="noopener noreferrer">查看详情</a>
+          `;
 
-                // 高亮显示涨幅超过9.8%的股票
-                if (stock.rate > 9.8) {
-                    row.classList.add('highlight');
-                }
-
-                // 设置涨跌样式
-                const rateClass = stock.rate >= 0 ? 'up' : 'down';
-
-                row.innerHTML = `
-                    <td>${stock.code}</td>
-                    <td>${stock.name}</td>
-                    <td>${stock.price}</td>
-                    <td class="${rateClass}">${stock.rate}%</td>
-                    <td>${stock.industry}</td>
-                `;
-
-                // 添加点击事件
-                row.addEventListener('click', () => {
-                    const stockLink = getStockLink(stock.code);
-                    const frame = document.getElementById('stockFrame');
-                    const placeholder = document.getElementById('framePlaceholder');
-
-                    frame.style.display = 'block';
-                    placeholder.style.display = 'none';
-                    frame.src = stockLink;
-
-                    // 添加选中样式
-                    document.querySelectorAll('.stock-table tr').forEach(r => {
-                        r.classList.remove('selected');
-                    });
-                    row.classList.add('selected');
-                });
-
-                tableBody.appendChild(row);
-            });
-        }
-
-        // 下拉框事件监听
-        document.getElementById('dataSelector').addEventListener('change', function() {
-            updateTable(this.value);
+          document.querySelectorAll('.stock-table tr').forEach(r => {
+            r.classList.remove('selected');
+          });
+          row.classList.add('selected');
         });
 
-        // 页面加载时初始化
-        window.addEventListener('DOMContentLoaded', loadData);
-    </script>
+        tableBody.appendChild(row);
+      });
+    }
+
+    document.getElementById('dataSelector').addEventListener('change', function() {
+      updateTable(this.value);
+    });
+
+    window.addEventListener('DOMContentLoaded', loadData);
+  </script>
 </body>
 </html>
