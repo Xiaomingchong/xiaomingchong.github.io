@@ -156,19 +156,19 @@
             // 根据不同交易所代码生成不同的链接
             if (code.startsWith('6')) {
                 // 沪市股票
-                return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
+                return `https://corsproxy.io/?https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
             } else if (code.startsWith('0') || code.startsWith('3')) {
                 // 深市股票
-                return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
+                return `https://corsproxy.io/?https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
             } else {
                 // 其他情况
-                return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
+                return `https://corsproxy.io/?https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
             }
         }
 
         // 从文件加载数据
         function loadData() {
-            fetch('https://xiaomingchong.github.io/stock_details.json')
+            fetch('https://corsproxy.io/?https://xiaomingchong.github.io/stock_details.json')
                 .then(response => response.json())
                 .then(data => {
                     stockData.up = data.up;
