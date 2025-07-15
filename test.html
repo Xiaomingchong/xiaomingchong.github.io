@@ -168,7 +168,7 @@
 
         // 从文件加载数据
         function loadData() {
-            fetch('stock_details.json')
+            fetch('https://xiaomingchong.github.io/stock_details.json')
                 .then(response => response.json())
                 .then(data => {
                     stockData.up = data.up;
