@@ -153,17 +153,9 @@
 
         // 生成股票详情链接（以东方财富网为例）
         function getStockLink(code) {
-            // 根据不同交易所代码生成不同的链接
-            if (code.startsWith('6')) {
-                // 沪市股票
-                return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
-            } else if (code.startsWith('0') || code.startsWith('3')) {
-                // 深市股票
-                return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
-            } else {
-                // 其他情况
-                return `https://data.10jqka.com.cn/market/lhbgg/code/${code}`;
-            }
+
+            return `https://quote.eastmoney.com/sz${code}.html/`;
+
         }
 
         // 从文件加载数据
