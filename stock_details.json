@@ -1,876 +1,1753 @@
 {
   "up": [
     {
-      "code": "000026",
-      "name": "飞亚达",
-      "rate": -0.06,
-      "price": 16.45,
-      "industry": "珠宝首饰"
+      "code": "000558",
+      "name": "天府文旅",
+      "rate": 0.17,
+      "price": 5.78,
+      "industry": "旅游酒店"
     },
     {
-      "code": "000514",
-      "name": "渝 开 发",
-      "rate": 10.05,
-      "price": 7.01,
-      "industry": "房地产开发"
+      "code": "000679",
+      "name": "大连友谊",
+      "rate": -1.74,
+      "price": 9.58,
+      "industry": "商业百货"
     },
     {
-      "code": "001298",
-      "name": "好上好",
-      "rate": -1.04,
-      "price": 30.31,
-      "industry": "电子元件"
+      "code": "001212",
+      "name": "中旗新材",
+      "rate": 3.12,
+      "price": 55.9,
+      "industry": "装修装饰"
     },
     {
-      "code": "002080",
-      "name": "中材科技",
-      "rate": 2.73,
-      "price": 24.8,
-      "industry": "玻璃玻纤"
+      "code": "001226",
+      "name": "拓山重工",
+      "rate": -0.3,
+      "price": 36.16,
+      "industry": "工程机械"
     },
     {
-      "code": "002104",
-      "name": "恒宝股份",
-      "rate": 1.89,
-      "price": 22.62,
+      "code": "002017",
+      "name": "东信和平",
+      "rate": -0.81,
+      "price": 33.18,
       "industry": "通信设备"
     },
     {
-      "code": "002125",
-      "name": "湘潭电化",
-      "rate": -3.28,
-      "price": 13.25,
-      "industry": "化学原料"
+      "code": "002037",
+      "name": "保利联合",
+      "rate": -0.34,
+      "price": 11.74,
+      "industry": "化学制品"
     },
     {
-      "code": "002189",
-      "name": "中光学",
-      "rate": -3.54,
-      "price": 25.58,
+      "code": "002046",
+      "name": "国机精工",
+      "rate": -7.98,
+      "price": 34.11,
+      "industry": "通用设备"
+    },
+    {
+      "code": "002052",
+      "name": "同洲电子",
+      "rate": 5.52,
+      "price": 20.25,
+      "industry": "家电行业"
+    },
+    {
+      "code": "002097",
+      "name": "山河智能",
+      "rate": 1.44,
+      "price": 16.95,
+      "industry": "工程机械"
+    },
+    {
+      "code": "002148",
+      "name": "北纬科技",
+      "rate": -4.2,
+      "price": 11.86,
+      "industry": "通信服务"
+    },
+    {
+      "code": "002173",
+      "name": "创新医疗",
+      "rate": -0.56,
+      "price": 22.9,
+      "industry": "医疗服务"
+    },
+    {
+      "code": "002231",
+      "name": "*ST奥维",
+      "rate": 5.03,
+      "price": 4.8,
+      "industry": "通信服务"
+    },
+    {
+      "code": "002265",
+      "name": "建设工业",
+      "rate": 1.72,
+      "price": 38.97,
+      "industry": "汽车零部件"
+    },
+    {
+      "code": "002272",
+      "name": "川润股份",
+      "rate": 10.03,
+      "price": 18.98,
+      "industry": "工程机械"
+    },
+    {
+      "code": "002287",
+      "name": "奇正藏药",
+      "rate": 0.96,
+      "price": 28.51,
+      "industry": "中药"
+    },
+    {
+      "code": "002289",
+      "name": "*ST宇顺",
+      "rate": 1.98,
+      "price": 29.86,
       "industry": "光学光电子"
     },
     {
-      "code": "002235",
-      "name": "安妮股份",
-      "rate": 4.41,
-      "price": 9.94,
-      "industry": "造纸印刷"
-    },
-    {
-      "code": "002263",
-      "name": "大东南",
-      "rate": -2.3,
-      "price": 3.82,
-      "industry": "塑料制品"
-    },
-    {
-      "code": "002490",
-      "name": "山东墨龙",
-      "rate": -3.33,
-      "price": 5.52,
-      "industry": "专用设备"
-    },
-    {
-      "code": "002579",
-      "name": "中京电子",
-      "rate": 1.76,
-      "price": 13.29,
-      "industry": "电子元件"
-    },
-    {
-      "code": "002623",
-      "name": "亚玛顿",
-      "rate": -9.99,
-      "price": 25.78,
-      "industry": "光伏设备"
-    },
-    {
-      "code": "002636",
-      "name": "金安国纪",
-      "rate": 0.0,
-      "price": 12.36,
-      "industry": "电子元件"
-    },
-    {
-      "code": "002846",
-      "name": "英联股份",
-      "rate": -2.31,
-      "price": 15.2,
-      "industry": "包装材料"
-    },
-    {
-      "code": "002882",
-      "name": "金龙羽",
-      "rate": -1.26,
-      "price": 32.03,
+      "code": "002298",
+      "name": "中电鑫龙",
+      "rate": 0.74,
+      "price": 10.88,
       "industry": "电网设备"
     },
     {
-      "code": "002940",
-      "name": "昂利康",
-      "rate": -2.56,
-      "price": 41.05,
-      "industry": "化学制药"
+      "code": "002305",
+      "name": "*ST南置",
+      "rate": -1.07,
+      "price": 3.69,
+      "industry": "房地产开发"
     },
     {
-      "code": "002987",
-      "name": "京北方",
-      "rate": -2.26,
-      "price": 22.1,
-      "industry": "软件开发"
-    },
-    {
-      "code": "003040",
-      "name": "楚天龙",
-      "rate": 10.01,
-      "price": 29.89,
+      "code": "002313",
+      "name": "日海智能",
+      "rate": 0.5,
+      "price": 12.0,
       "industry": "通信设备"
     },
     {
-      "code": "600110",
-      "name": "诺德股份",
-      "rate": -5.28,
-      "price": 5.56,
-      "industry": "电池"
+      "code": "002370",
+      "name": "亚太药业",
+      "rate": -1.32,
+      "price": 6.73,
+      "industry": "化学制药"
+    },
+    {
+      "code": "002402",
+      "name": "和而泰",
+      "rate": 10.02,
+      "price": 36.14,
+      "industry": "消费电子"
+    },
+    {
+      "code": "002468",
+      "name": "申通快递",
+      "rate": -1.03,
+      "price": 19.28,
+      "industry": "物流行业"
+    },
+    {
+      "code": "002518",
+      "name": "科士达",
+      "rate": 1.4,
+      "price": 35.49,
+      "industry": "电源设备"
+    },
+    {
+      "code": "002536",
+      "name": "飞龙股份",
+      "rate": -1.9,
+      "price": 28.36,
+      "industry": "汽车零部件"
+    },
+    {
+      "code": "002768",
+      "name": "国恩股份",
+      "rate": -0.8,
+      "price": 48.24,
+      "industry": "塑料制品"
+    },
+    {
+      "code": "002775",
+      "name": "文科股份",
+      "rate": -4.58,
+      "price": 4.79,
+      "industry": "工程建设"
+    },
+    {
+      "code": "002837",
+      "name": "英维克",
+      "rate": 1.64,
+      "price": 65.66,
+      "industry": "专用设备"
+    },
+    {
+      "code": "002859",
+      "name": "洁美科技",
+      "rate": 0.74,
+      "price": 29.83,
+      "industry": "电子元件"
+    },
+    {
+      "code": "002871",
+      "name": "伟隆股份",
+      "rate": 10.03,
+      "price": 18.43,
+      "industry": "通用设备"
+    },
+    {
+      "code": "003020",
+      "name": "立方制药",
+      "rate": 6.68,
+      "price": 38.48,
+      "industry": "化学制药"
+    },
+    {
+      "code": "600021",
+      "name": "上海电力",
+      "rate": 0.58,
+      "price": 13.76,
+      "industry": "电力行业"
+    },
+    {
+      "code": "600111",
+      "name": "北方稀土",
+      "rate": 7.51,
+      "price": 47.95,
+      "industry": "小金属"
     },
     {
       "code": "600113",
       "name": "浙江东日",
-      "rate": -0.79,
-      "price": 28.89,
+      "rate": -3.69,
+      "price": 49.55,
       "industry": "综合行业"
+    },
+    {
+      "code": "600117",
+      "name": "西宁特钢",
+      "rate": -1.69,
+      "price": 3.5,
+      "industry": "钢铁行业"
+    },
+    {
+      "code": "600143",
+      "name": "金发科技",
+      "rate": 1.69,
+      "price": 16.25,
+      "industry": "塑料制品"
+    },
+    {
+      "code": "600203",
+      "name": "福日电子",
+      "rate": -4.1,
+      "price": 15.92,
+      "industry": "消费电子"
+    },
+    {
+      "code": "600246",
+      "name": "万通发展",
+      "rate": 10.05,
+      "price": 11.61,
+      "industry": "房地产开发"
+    },
+    {
+      "code": "600326",
+      "name": "西藏天路",
+      "rate": -0.39,
+      "price": 15.51,
+      "industry": "水泥建材"
+    },
+    {
+      "code": "600392",
+      "name": "盛和资源",
+      "rate": 2.45,
+      "price": 23.82,
+      "industry": "小金属"
+    },
+    {
+      "code": "600410",
+      "name": "华胜天成",
+      "rate": 3.68,
+      "price": 21.14,
+      "industry": "互联网服务"
     },
     {
       "code": "600475",
       "name": "华光环能",
-      "rate": -9.94,
-      "price": 15.04,
+      "rate": 10.02,
+      "price": 25.92,
       "industry": "电源设备"
     },
     {
       "code": "600513",
       "name": "联环药业",
-      "rate": -10.01,
-      "price": 14.83,
+      "rate": -5.06,
+      "price": 24.6,
       "industry": "化学制药"
     },
     {
-      "code": "600643",
-      "name": "爱建集团",
-      "rate": -2.62,
-      "price": 6.33,
-      "industry": "多元金融"
+      "code": "600580",
+      "name": "卧龙电驱",
+      "rate": 1.52,
+      "price": 32.07,
+      "industry": "电机"
     },
     {
-      "code": "600698",
-      "name": "湖南天雁",
-      "rate": -1.74,
-      "price": 10.18,
-      "industry": "汽车零部件"
+      "code": "600619",
+      "name": "海立股份",
+      "rate": 3.45,
+      "price": 21.91,
+      "industry": "家电行业"
     },
     {
-      "code": "600744",
-      "name": "华银电力",
-      "rate": -10.03,
-      "price": 8.25,
-      "industry": "电力行业"
+      "code": "600629",
+      "name": "华建集团",
+      "rate": 0.34,
+      "price": 14.55,
+      "industry": "工程咨询服务"
+    },
+    {
+      "code": "600651",
+      "name": "飞乐音响",
+      "rate": 9.87,
+      "price": 7.9,
+      "industry": "光学光电子"
+    },
+    {
+      "code": "600658",
+      "name": "电子城",
+      "rate": -9.96,
+      "price": 7.59,
+      "industry": "房地产服务"
+    },
+    {
+      "code": "600737",
+      "name": "中粮糖业",
+      "rate": -3.62,
+      "price": 14.92,
+      "industry": "食品饮料"
+    },
+    {
+      "code": "600749",
+      "name": "西藏旅游",
+      "rate": -2.96,
+      "price": 24.9,
+      "industry": "旅游酒店"
     },
     {
       "code": "600967",
       "name": "内蒙一机",
-      "rate": -2.44,
-      "price": 17.62,
+      "rate": 1.87,
+      "price": 25.62,
       "industry": "交运设备"
     },
     {
       "code": "601003",
       "name": "柳钢股份",
-      "rate": 10.08,
-      "price": 5.57,
+      "rate": -1.83,
+      "price": 5.89,
       "industry": "钢铁行业"
     },
     {
-      "code": "601218",
-      "name": "吉鑫科技",
-      "rate": 3.73,
-      "price": 4.45,
-      "industry": "风电设备"
+      "code": "601089",
+      "name": "福元医药",
+      "rate": -2.14,
+      "price": 26.01,
+      "industry": "化学制药"
     },
     {
-      "code": "601519",
-      "name": "大智慧",
-      "rate": -7.3,
-      "price": 13.2,
-      "industry": "软件开发"
+      "code": "601137",
+      "name": "博威合金",
+      "rate": 1.04,
+      "price": 27.23,
+      "industry": "有色金属"
+    },
+    {
+      "code": "601138",
+      "name": "工业富联",
+      "rate": 1.19,
+      "price": 45.83,
+      "industry": "消费电子"
     },
     {
       "code": "601606",
       "name": "长城军工",
-      "rate": 0.52,
-      "price": 28.89,
+      "rate": 0.82,
+      "price": 62.58,
       "industry": "专用设备"
     },
     {
-      "code": "601718",
-      "name": "际华集团",
-      "rate": -3.03,
-      "price": 3.84,
-      "industry": "纺织服装"
+      "code": "601609",
+      "name": "金田股份",
+      "rate": -7.15,
+      "price": 12.33,
+      "industry": "有色金属"
     },
     {
-      "code": "603022",
-      "name": "新通联",
-      "rate": -1.45,
-      "price": 10.23,
-      "industry": "包装材料"
+      "code": "601929",
+      "name": "吉视传媒",
+      "rate": -6.82,
+      "price": 3.69,
+      "industry": "文化传媒"
     },
     {
-      "code": "603200",
-      "name": "上海洗霸",
-      "rate": 2.65,
-      "price": 54.17,
-      "industry": "环保行业"
+      "code": "603040",
+      "name": "新坐标",
+      "rate": -1.13,
+      "price": 64.99,
+      "industry": "汽车零部件"
     },
     {
-      "code": "603228",
-      "name": "景旺电子",
-      "rate": 4.8,
-      "price": 50.84,
-      "industry": "电子元件"
+      "code": "603059",
+      "name": "倍加洁",
+      "rate": -0.81,
+      "price": 31.84,
+      "industry": "美容护理"
+    },
+    {
+      "code": "603158",
+      "name": "腾龙股份",
+      "rate": 2.59,
+      "price": 13.06,
+      "industry": "汽车零部件"
+    },
+    {
+      "code": "603222",
+      "name": "济民健康",
+      "rate": -10.0,
+      "price": 10.26,
+      "industry": "化学制药"
+    },
+    {
+      "code": "603226",
+      "name": "菲林格尔",
+      "rate": 0.77,
+      "price": 22.39,
+      "industry": "装修建材"
     },
     {
       "code": "603256",
       "name": "宏和科技",
-      "rate": -1.95,
-      "price": 20.6,
+      "rate": 9.99,
+      "price": 40.5,
       "industry": "玻璃玻纤"
     },
     {
-      "code": "603316",
-      "name": "诚邦股份",
-      "rate": -1.55,
-      "price": 8.91,
-      "industry": "工程建设"
+      "code": "603280",
+      "name": "南方路机",
+      "rate": -2.55,
+      "price": 45.52,
+      "industry": "专用设备"
     },
     {
-      "code": "603590",
-      "name": "康辰药业",
-      "rate": 3.73,
-      "price": 50.1,
-      "industry": "生物制品"
+      "code": "603367",
+      "name": "辰欣药业",
+      "rate": -4.53,
+      "price": 28.64,
+      "industry": "化学制药"
     },
     {
-      "code": "603601",
-      "name": "再升科技",
-      "rate": -1.48,
-      "price": 4.66,
-      "industry": "玻璃玻纤"
+      "code": "603516",
+      "name": "淳中科技",
+      "rate": 1.44,
+      "price": 113.08,
+      "industry": "计算机设备"
+    },
+    {
+      "code": "603616",
+      "name": "韩建河山",
+      "rate": -4.31,
+      "price": 5.77,
+      "industry": "水泥建材"
+    },
+    {
+      "code": "603626",
+      "name": "科森科技",
+      "rate": 10.02,
+      "price": 15.26,
+      "industry": "消费电子"
     },
     {
       "code": "603716",
       "name": "塞力医疗",
-      "rate": -10.0,
-      "price": 22.4,
+      "rate": 10.02,
+      "price": 31.52,
       "industry": "医药商业"
     },
     {
-      "code": "603778",
-      "name": "国晟科技",
-      "rate": -10.02,
-      "price": 4.94,
-      "industry": "光伏设备"
+      "code": "603757",
+      "name": "大元泵业",
+      "rate": -1.76,
+      "price": 50.1,
+      "industry": "通用设备"
     },
     {
-      "code": "603928",
-      "name": "兴业股份",
-      "rate": -1.5,
-      "price": 15.78,
-      "industry": "塑料制品"
+      "code": "603767",
+      "name": "中马传动",
+      "rate": 1.43,
+      "price": 32.0,
+      "industry": "汽车零部件"
     },
     {
-      "code": "605162",
-      "name": "新中港",
-      "rate": 7.98,
-      "price": 11.1,
-      "industry": "公用事业"
+      "code": "603800",
+      "name": "洪田股份",
+      "rate": -4.61,
+      "price": 48.0,
+      "industry": "专用设备"
     },
     {
-      "code": "605277",
-      "name": "新亚电子",
-      "rate": -1.49,
-      "price": 24.53,
-      "industry": "消费电子"
+      "code": "605028",
+      "name": "世茂能源",
+      "rate": 10.01,
+      "price": 29.55,
+      "industry": "电力行业"
     },
     {
-      "code": "605500",
-      "name": "森林包装",
-      "rate": -7.42,
-      "price": 12.22,
-      "industry": "造纸印刷"
+      "code": "605169",
+      "name": "洪通燃气",
+      "rate": -2.74,
+      "price": 15.97,
+      "industry": "燃气"
+    },
+    {
+      "code": "605298",
+      "name": "必得科技",
+      "rate": 7.99,
+      "price": 23.79,
+      "industry": "交运设备"
     }
   ],
   "down": [
     {
-      "code": "000525",
-      "name": "红太阳",
-      "rate": -9.44,
-      "price": 6.43,
-      "industry": "农药兽药"
+      "code": "000851",
+      "name": "*ST高鸿",
+      "rate": -5.0,
+      "price": 1.33,
+      "industry": "通信设备"
     },
     {
-      "code": "000701",
-      "name": "厦门信达",
-      "rate": -1.12,
-      "price": 6.18,
-      "industry": "商业百货"
+      "code": "001896",
+      "name": "豫能控股",
+      "rate": -0.35,
+      "price": 5.71,
+      "industry": "电力行业"
     },
     {
-      "code": "001202",
-      "name": "炬申股份",
-      "rate": -1.25,
-      "price": 13.42,
-      "industry": "物流行业"
+      "code": "002104",
+      "name": "恒宝股份",
+      "rate": 1.23,
+      "price": 28.85,
+      "industry": "通信设备"
     },
     {
-      "code": "001212",
-      "name": "中旗新材",
-      "rate": 0.35,
-      "price": 36.87,
-      "industry": "装修装饰"
-    },
-    {
-      "code": "001282",
-      "name": "三联锻造",
-      "rate": -1.73,
-      "price": 20.41,
-      "industry": "汽车零部件"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "rate": -0.41,
-      "price": 82.96,
-      "industry": "半导体"
-    },
-    {
-      "code": "001316",
-      "name": "润贝航科",
-      "rate": -0.03,
-      "price": 33.27,
-      "industry": "贸易行业"
-    },
-    {
-      "code": "002172",
-      "name": "澳洋健康",
-      "rate": -2.76,
-      "price": 3.87,
-      "industry": "医疗服务"
-    },
-    {
-      "code": "002250",
-      "name": "联化科技",
-      "rate": -1.98,
-      "price": 10.38,
-      "industry": "农药兽药"
-    },
-    {
-      "code": "002371",
-      "name": "北方华创",
-      "rate": -0.27,
-      "price": 323.32,
-      "industry": "半导体"
-    },
-    {
-      "code": "002615",
-      "name": "哈尔斯",
-      "rate": -1.31,
-      "price": 8.27,
-      "industry": "家用轻工"
-    },
-    {
-      "code": "002731",
-      "name": "萃华珠宝",
-      "rate": -4.35,
-      "price": 12.96,
-      "industry": "珠宝首饰"
-    },
-    {
-      "code": "002734",
-      "name": "利民股份",
-      "rate": 1.5,
-      "price": 20.96,
-      "industry": "农药兽药"
-    },
-    {
-      "code": "002826",
-      "name": "易明医药",
-      "rate": -1.98,
-      "price": 17.78,
-      "industry": "中药"
-    },
-    {
-      "code": "002878",
-      "name": "元隆雅图",
-      "rate": 1.61,
-      "price": 18.93,
-      "industry": "文化传媒"
-    },
-    {
-      "code": "002892",
-      "name": "科力尔",
-      "rate": -0.51,
-      "price": 13.74,
-      "industry": "电机"
-    },
-    {
-      "code": "002896",
-      "name": "中大力德",
-      "rate": 0.33,
-      "price": 67.8,
-      "industry": "通用设备"
+      "code": "002594",
+      "name": "比亚迪",
+      "rate": 3.32,
+      "price": 110.66,
+      "industry": "汽车整车"
     },
     {
       "code": "002951",
       "name": "金时科技",
-      "rate": 10.02,
-      "price": 17.57,
+      "rate": -2.89,
+      "price": 18.45,
       "industry": "电源设备"
-    },
-    {
-      "code": "003001",
-      "name": "中岩大地",
-      "rate": -0.11,
-      "price": 27.64,
-      "industry": "工程咨询服务"
-    },
-    {
-      "code": "600232",
-      "name": "金鹰股份",
-      "rate": -3.11,
-      "price": 6.23,
-      "industry": "纺织服装"
-    },
-    {
-      "code": "600480",
-      "name": "凌云股份",
-      "rate": 0.17,
-      "price": 11.63,
-      "industry": "汽车零部件"
-    },
-    {
-      "code": "600885",
-      "name": "宏发股份",
-      "rate": -0.17,
-      "price": 22.94,
-      "industry": "电网设备"
-    },
-    {
-      "code": "600980",
-      "name": "北矿科技",
-      "rate": -2.03,
-      "price": 22.73,
-      "industry": "小金属"
-    },
-    {
-      "code": "603011",
-      "name": "合锻智能",
-      "rate": -2.52,
-      "price": 16.25,
-      "industry": "专用设备"
-    },
-    {
-      "code": "603037",
-      "name": "凯众股份",
-      "rate": -0.32,
-      "price": 12.32,
-      "industry": "汽车零部件"
-    },
-    {
-      "code": "603052",
-      "name": "可川科技",
-      "rate": 0.15,
-      "price": 26.94,
-      "industry": "电子元件"
-    },
-    {
-      "code": "603067",
-      "name": "振华股份",
-      "rate": -4.88,
-      "price": 14.03,
-      "industry": "化学原料"
-    },
-    {
-      "code": "603093",
-      "name": "南华期货",
-      "rate": -5.2,
-      "price": 23.71,
-      "industry": "多元金融"
-    },
-    {
-      "code": "603205",
-      "name": "健尔康",
-      "rate": -1.15,
-      "price": 29.28,
-      "industry": "医疗器械"
-    },
-    {
-      "code": "603319",
-      "name": "美湖股份",
-      "rate": 2.58,
-      "price": 25.44,
-      "industry": "汽车零部件"
-    },
-    {
-      "code": "603327",
-      "name": "福蓉科技",
-      "rate": -2.26,
-      "price": 9.51,
-      "industry": "消费电子"
-    },
-    {
-      "code": "603388",
-      "name": "*ST元成",
-      "rate": 4.93,
-      "price": 2.34,
-      "industry": "工程建设"
-    },
-    {
-      "code": "603505",
-      "name": "DR金石资",
-      "rate": -0.32,
-      "price": 15.62,
-      "industry": "采掘行业"
-    },
-    {
-      "code": "603871",
-      "name": "嘉友国际",
-      "rate": -0.74,
-      "price": 10.78,
-      "industry": "物流行业"
-    },
-    {
-      "code": "605133",
-      "name": "嵘泰股份",
-      "rate": 4.54,
-      "price": 30.16,
-      "industry": "汽车零部件"
-    },
-    {
-      "code": "605189",
-      "name": "富春染织",
-      "rate": 1.2,
-      "price": 13.48,
-      "industry": "纺织服装"
-    },
-    {
-      "code": "605198",
-      "name": "安德利",
-      "rate": -2.45,
-      "price": 42.52,
-      "industry": "食品饮料"
-    },
-    {
-      "code": "605369",
-      "name": "拱东医疗",
-      "rate": 0.72,
-      "price": 19.6,
-      "industry": "医疗器械"
-    },
-    {
-      "code": "605555",
-      "name": "德昌股份",
-      "rate": -0.37,
-      "price": 16.03,
-      "industry": "家电行业"
-    }
-  ],
-  "high_gain": [
-    {
-      "code": "605305",
-      "name": "中际联合",
-      "rate": 10.01,
-      "price": 33.86,
-      "industry": "风电设备"
-    },
-    {
-      "code": "601003",
-      "name": "柳钢股份",
-      "rate": 10.08,
-      "price": 5.57,
-      "industry": "钢铁行业"
-    },
-    {
-      "code": "000880",
-      "name": "潍柴重机",
-      "rate": 9.99,
-      "price": 41.62,
-      "industry": "通用设备"
-    },
-    {
-      "code": "603109",
-      "name": "神驰机电",
-      "rate": 9.99,
-      "price": 28.07,
-      "industry": "通用设备"
-    },
-    {
-      "code": "605259",
-      "name": "绿田机械",
-      "rate": 10.02,
-      "price": 26.47,
-      "industry": "通用设备"
     },
     {
       "code": "003040",
       "name": "楚天龙",
-      "rate": 10.01,
-      "price": 29.89,
+      "rate": -1.4,
+      "price": 26.13,
       "industry": "通信设备"
     },
     {
-      "code": "600588",
-      "name": "用友网络",
-      "rate": 9.98,
-      "price": 14.44,
+      "code": "600200",
+      "name": "*ST苏吴",
+      "rate": 5.21,
+      "price": 1.01,
+      "industry": "化学制药"
+    },
+    {
+      "code": "600604",
+      "name": "市北高新",
+      "rate": -0.16,
+      "price": 6.09,
+      "industry": "房地产服务"
+    },
+    {
+      "code": "603051",
+      "name": "鹿山新材",
+      "rate": 0.53,
+      "price": 20.73,
+      "industry": "塑料制品"
+    },
+    {
+      "code": "603888",
+      "name": "新华网",
+      "rate": 1.13,
+      "price": 20.53,
+      "industry": "文化传媒"
+    },
+    {
+      "code": "605162",
+      "name": "新中港",
+      "rate": -0.97,
+      "price": 9.18,
+      "industry": "公用事业"
+    },
+    {
+      "code": "605500",
+      "name": "森林包装",
+      "rate": -1.83,
+      "price": 10.21,
+      "industry": "造纸印刷"
+    }
+  ],
+  "high_gain": [
+    {
+      "code": "002568",
+      "name": "百润股份",
+      "rate": 10.0,
+      "price": 28.27,
+      "industry": "酿酒行业"
+    },
+    {
+      "code": "002685",
+      "name": "华东重机",
+      "rate": 9.95,
+      "price": 8.62,
+      "industry": "通用设备"
+    },
+    {
+      "code": "002871",
+      "name": "伟隆股份",
+      "rate": 10.03,
+      "price": 18.43,
+      "industry": "通用设备"
+    },
+    {
+      "code": "002212",
+      "name": "天融信",
+      "rate": 9.97,
+      "price": 10.15,
       "industry": "软件开发"
     },
     {
-      "code": "603039",
-      "name": "泛微网络",
+      "code": "600728",
+      "name": "佳都科技",
       "rate": 10.0,
-      "price": 59.42,
+      "price": 6.82,
       "industry": "软件开发"
     },
     {
-      "code": "001287",
-      "name": "中电港",
-      "rate": 9.99,
-      "price": 20.26,
-      "industry": "贸易行业"
-    },
-    {
-      "code": "600826",
-      "name": "兰生股份",
-      "rate": 10.01,
-      "price": 10.88,
-      "industry": "贸易行业"
-    },
-    {
-      "code": "600190",
-      "name": "退市锦港",
-      "rate": 10.0,
-      "price": 0.55,
-      "industry": "航运港口"
-    },
-    {
-      "code": "002394",
-      "name": "联发股份",
-      "rate": 9.98,
-      "price": 9.7,
-      "industry": "纺织服装"
-    },
-    {
-      "code": "002674",
-      "name": "兴业科技",
-      "rate": 9.99,
-      "price": 11.23,
-      "industry": "纺织服装"
-    },
-    {
-      "code": "603001",
-      "name": "奥康国际",
-      "rate": 9.99,
-      "price": 8.48,
-      "industry": "纺织服装"
-    },
-    {
-      "code": "002951",
-      "name": "金时科技",
+      "code": "600058",
+      "name": "五矿发展",
       "rate": 10.02,
-      "price": 17.57,
+      "price": 9.22,
+      "industry": "贸易行业"
+    },
+    {
+      "code": "601788",
+      "name": "光大证券",
+      "rate": 10.01,
+      "price": 20.78,
+      "industry": "证券"
+    },
+    {
+      "code": "601059",
+      "name": "信达证券",
+      "rate": 9.98,
+      "price": 19.72,
+      "industry": "证券"
+    },
+    {
+      "code": "002177",
+      "name": "御银股份",
+      "rate": 10.01,
+      "price": 10.0,
+      "industry": "计算机设备"
+    },
+    {
+      "code": "603106",
+      "name": "恒银科技",
+      "rate": 10.01,
+      "price": 12.86,
+      "industry": "计算机设备"
+    },
+    {
+      "code": "603019",
+      "name": "中科曙光",
+      "rate": 10.0,
+      "price": 82.83,
+      "industry": "计算机设备"
+    },
+    {
+      "code": "600315",
+      "name": "上海家化",
+      "rate": 10.0,
+      "price": 25.74,
+      "industry": "美容护理"
+    },
+    {
+      "code": "002692",
+      "name": "远程股份",
+      "rate": 9.94,
+      "price": 5.64,
+      "industry": "电网设备"
+    },
+    {
+      "code": "600475",
+      "name": "华光环能",
+      "rate": 10.02,
+      "price": 25.92,
       "industry": "电源设备"
     },
     {
-      "code": "002161",
-      "name": "远 望 谷",
-      "rate": 10.03,
-      "price": 7.24,
-      "industry": "电子元件"
-    },
-    {
-      "code": "002938",
-      "name": "鹏鼎控股",
+      "code": "603031",
+      "name": "安孚科技",
       "rate": 10.01,
-      "price": 43.43,
+      "price": 39.55,
+      "industry": "电池"
+    },
+    {
+      "code": "600353",
+      "name": "旭光电子",
+      "rate": 10.03,
+      "price": 16.57,
       "industry": "电子元件"
     },
     {
-      "code": "002645",
-      "name": "华宏科技",
-      "rate": 10.0,
-      "price": 12.65,
-      "industry": "环保行业"
+      "code": "600601",
+      "name": "方正科技",
+      "rate": 10.04,
+      "price": 7.89,
+      "industry": "电子元件"
     },
     {
-      "code": "002725",
-      "name": "跃岭股份",
+      "code": "001298",
+      "name": "好上好",
+      "rate": 9.99,
+      "price": 38.74,
+      "industry": "电子元件"
+    },
+    {
+      "code": "600979",
+      "name": "广安爱众",
+      "rate": 9.94,
+      "price": 5.53,
+      "industry": "电力行业"
+    },
+    {
+      "code": "601778",
+      "name": "晶科科技",
       "rate": 10.03,
-      "price": 14.37,
+      "price": 4.28,
+      "industry": "电力行业"
+    },
+    {
+      "code": "605028",
+      "name": "世茂能源",
+      "rate": 10.01,
+      "price": 29.55,
+      "industry": "电力行业"
+    },
+    {
+      "code": "002080",
+      "name": "中材科技",
+      "rate": 10.01,
+      "price": 35.29,
+      "industry": "玻璃玻纤"
+    },
+    {
+      "code": "603256",
+      "name": "宏和科技",
+      "rate": 9.99,
+      "price": 40.5,
+      "industry": "玻璃玻纤"
+    },
+    {
+      "code": "001317",
+      "name": "三羊马",
+      "rate": 10.0,
+      "price": 51.48,
+      "industry": "物流行业"
+    },
+    {
+      "code": "002993",
+      "name": "奥海科技",
+      "rate": 10.0,
+      "price": 52.45,
+      "industry": "消费电子"
+    },
+    {
+      "code": "002402",
+      "name": "和而泰",
+      "rate": 10.02,
+      "price": 36.14,
+      "industry": "消费电子"
+    },
+    {
+      "code": "603626",
+      "name": "科森科技",
+      "rate": 10.02,
+      "price": 15.26,
+      "industry": "消费电子"
+    },
+    {
+      "code": "002190",
+      "name": "成飞集成",
+      "rate": 10.01,
+      "price": 48.79,
       "industry": "汽车零部件"
     },
     {
-      "code": "600822",
-      "name": "上海物贸",
+      "code": "605133",
+      "name": "嵘泰股份",
       "rate": 10.01,
-      "price": 13.3,
-      "industry": "汽车服务"
+      "price": 38.59,
+      "industry": "汽车零部件"
     },
     {
-      "code": "003037",
-      "name": "三和管桩",
-      "rate": 10.01,
-      "price": 9.45,
+      "code": "605255",
+      "name": "天普股份",
+      "rate": 9.98,
+      "price": 29.3,
+      "industry": "汽车零部件"
+    },
+    {
+      "code": "000877",
+      "name": "天山股份",
+      "rate": 10.03,
+      "price": 6.58,
       "industry": "水泥建材"
     },
     {
-      "code": "603045",
-      "name": "福达合金",
-      "rate": 10.01,
-      "price": 19.46,
+      "code": "600425",
+      "name": "青松建化",
+      "rate": 9.98,
+      "price": 4.74,
+      "industry": "水泥建材"
+    },
+    {
+      "code": "600490",
+      "name": "鹏欣资源",
+      "rate": 10.06,
+      "price": 5.69,
       "industry": "有色金属"
     },
     {
-      "code": "000514",
-      "name": "渝 开 发",
-      "rate": 10.05,
-      "price": 7.01,
-      "industry": "房地产开发"
-    },
-    {
-      "code": "000965",
-      "name": "天保基建",
+      "code": "600637",
+      "name": "东方明珠",
       "rate": 9.98,
-      "price": 4.74,
+      "price": 9.37,
+      "industry": "文化传媒"
+    },
+    {
+      "code": "002575",
+      "name": "群兴玩具",
+      "rate": 10.04,
+      "price": 9.32,
+      "industry": "房地产服务"
+    },
+    {
+      "code": "600246",
+      "name": "万通发展",
+      "rate": 10.05,
+      "price": 11.61,
       "industry": "房地产开发"
     },
     {
-      "code": "002133",
-      "name": "广宇集团",
-      "rate": 9.97,
-      "price": 3.42,
-      "industry": "房地产开发"
+      "code": "002272",
+      "name": "川润股份",
+      "rate": 10.03,
+      "price": 18.98,
+      "industry": "工程机械"
     },
     {
-      "code": "601512",
-      "name": "中新集团",
-      "rate": 10.0,
-      "price": 8.25,
-      "industry": "房地产开发"
-    },
-    {
-      "code": "603176",
-      "name": "汇通集团",
-      "rate": 10.08,
-      "price": 6.77,
+      "code": "000628",
+      "name": "高新发展",
+      "rate": 10.01,
+      "price": 61.33,
       "industry": "工程建设"
     },
     {
-      "code": "603486",
-      "name": "科沃斯",
+      "code": "600284",
+      "name": "浦东建设",
+      "rate": 10.04,
+      "price": 8.44,
+      "industry": "工程建设"
+    },
+    {
+      "code": "605303",
+      "name": "园林股份",
+      "rate": 9.99,
+      "price": 20.04,
+      "industry": "工程建设"
+    },
+    {
+      "code": "002378",
+      "name": "章源钨业",
+      "rate": 10.05,
+      "price": 12.16,
+      "industry": "小金属"
+    },
+    {
+      "code": "002290",
+      "name": "禾盛新材",
       "rate": 10.0,
-      "price": 70.43,
+      "price": 32.89,
       "industry": "家电行业"
     },
     {
-      "code": "002901",
-      "name": "大博医疗",
+      "code": "000617",
+      "name": "中油资本",
+      "rate": 10.03,
+      "price": 11.96,
+      "industry": "多元金融"
+    },
+    {
+      "code": "601208",
+      "name": "东材科技",
       "rate": 9.99,
-      "price": 41.61,
+      "price": 19.15,
+      "industry": "塑料制品"
+    },
+    {
+      "code": "002838",
+      "name": "道恩股份",
+      "rate": 9.99,
+      "price": 28.62,
+      "industry": "塑料制品"
+    },
+    {
+      "code": "603101",
+      "name": "汇嘉时代",
+      "rate": 9.99,
+      "price": 11.45,
+      "industry": "商业百货"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "rate": 10.0,
+      "price": 150.88,
+      "industry": "半导体"
+    },
+    {
+      "code": "603716",
+      "name": "塞力医疗",
+      "rate": 10.02,
+      "price": 31.52,
+      "industry": "医药商业"
+    },
+    {
+      "code": "002622",
+      "name": "皓宸医疗",
+      "rate": 9.92,
+      "price": 4.21,
+      "industry": "医疗服务"
+    },
+    {
+      "code": "000710",
+      "name": "贝瑞基因",
+      "rate": 10.03,
+      "price": 15.79,
       "industry": "医疗器械"
     },
     {
-      "code": "000545",
-      "name": "金浦钛业",
-      "rate": 10.11,
-      "price": 3.05,
+      "code": "000818",
+      "name": "航锦科技",
+      "rate": 10.0,
+      "price": 26.39,
       "industry": "化学原料"
     },
     {
-      "code": "002082",
-      "name": "万邦德",
-      "rate": 10.03,
-      "price": 7.79,
-      "industry": "化学制药"
-    },
-    {
-      "code": "002755",
-      "name": "奥赛康",
-      "rate": 10.01,
-      "price": 21.66,
-      "industry": "化学制药"
-    },
-    {
-      "code": "002393",
-      "name": "力生制药",
-      "rate": 9.98,
-      "price": 21.71,
-      "industry": "化学制药"
-    },
-    {
-      "code": "603811",
-      "name": "诚意药业",
+      "code": "002109",
+      "name": "兴化股份",
       "rate": 9.97,
-      "price": 12.13,
-      "industry": "化学制药"
+      "price": 3.97,
+      "industry": "化学原料"
     },
     {
-      "code": "002086",
-      "name": "东方海洋",
+      "code": "603227",
+      "name": "雪峰科技",
+      "rate": 10.0,
+      "price": 9.79,
+      "industry": "化学制品"
+    },
+    {
+      "code": "002217",
+      "name": "合力泰",
       "rate": 10.04,
       "price": 3.07,
-      "industry": "农牧饲渔"
+      "industry": "光学光电子"
     },
     {
-      "code": "603628",
-      "name": "清源股份",
-      "rate": 9.99,
-      "price": 14.31,
-      "industry": "光伏设备"
+      "code": "600651",
+      "name": "飞乐音响",
+      "rate": 9.87,
+      "price": 7.9,
+      "industry": "光学光电子"
     },
     {
-      "code": "603680",
-      "name": "今创集团",
-      "rate": 9.97,
-      "price": 12.91,
-      "industry": "交运设备"
-    },
-    {
-      "code": "002131",
-      "name": "利欧股份",
-      "rate": 9.91,
-      "price": 3.77,
+      "code": "600797",
+      "name": "浙大网新",
+      "rate": 10.04,
+      "price": 11.95,
       "industry": "互联网服务"
     },
     {
-      "code": "000409",
-      "name": "云鼎科技",
-      "rate": 9.98,
-      "price": 12.34,
+      "code": "000676",
+      "name": "智度股份",
+      "rate": 10.01,
+      "price": 10.88,
       "industry": "互联网服务"
     },
     {
       "code": "603171",
       "name": "税友股份",
       "rate": 10.01,
-      "price": 43.54,
+      "price": 60.01,
+      "industry": "互联网服务"
+    }
+  ],
+  "golden_cross": [
+    {
+      "code": "000009",
+      "name": "中国宝安",
+      "rate": 0.21,
+      "price": 9.52,
+      "industry": "综合行业"
+    },
+    {
+      "code": "000028",
+      "name": "国药一致",
+      "rate": -0.04,
+      "price": 25.97,
+      "industry": "医药商业"
+    },
+    {
+      "code": "000422",
+      "name": "湖北宜化",
+      "rate": -0.36,
+      "price": 13.95,
+      "industry": "化肥行业"
+    },
+    {
+      "code": "000538",
+      "name": "云南白药",
+      "rate": 0.24,
+      "price": 57.64,
+      "industry": "中药"
+    },
+    {
+      "code": "000705",
+      "name": "浙江震元",
+      "rate": -0.42,
+      "price": 9.53,
+      "industry": "医药商业"
+    },
+    {
+      "code": "000739",
+      "name": "普洛药业",
+      "rate": -0.96,
+      "price": 16.44,
+      "industry": "化学制药"
+    },
+    {
+      "code": "000798",
+      "name": "中水渔业",
+      "rate": -0.95,
+      "price": 8.34,
+      "industry": "农牧饲渔"
+    },
+    {
+      "code": "000825",
+      "name": "太钢不锈",
+      "rate": -1.2,
+      "price": 4.13,
+      "industry": "钢铁行业"
+    },
+    {
+      "code": "000893",
+      "name": "亚钾国际",
+      "rate": -2.04,
+      "price": 31.75,
+      "industry": "化肥行业"
+    },
+    {
+      "code": "000905",
+      "name": "厦门港务",
+      "rate": 0.58,
+      "price": 8.61,
+      "industry": "航运港口"
+    },
+    {
+      "code": "000959",
+      "name": "首钢股份",
+      "rate": -1.42,
+      "price": 4.17,
+      "industry": "钢铁行业"
+    },
+    {
+      "code": "000963",
+      "name": "华东医药",
+      "rate": -0.18,
+      "price": 45.63,
+      "industry": "化学制药"
+    },
+    {
+      "code": "000978",
+      "name": "桂林旅游",
+      "rate": -0.15,
+      "price": 6.6,
+      "industry": "旅游酒店"
+    },
+    {
+      "code": "000990",
+      "name": "诚志股份",
+      "rate": 0.25,
+      "price": 8.1,
+      "industry": "化学原料"
+    },
+    {
+      "code": "001213",
+      "name": "中铁特货",
+      "rate": 0.47,
+      "price": 4.32,
+      "industry": "物流行业"
+    },
+    {
+      "code": "001389",
+      "name": "广合科技",
+      "rate": 0.07,
+      "price": 69.4,
+      "industry": "电子元件"
+    },
+    {
+      "code": "002096",
+      "name": "易普力",
+      "rate": -0.28,
+      "price": 14.13,
+      "industry": "化学制品"
+    },
+    {
+      "code": "002219",
+      "name": "新里程",
+      "rate": 0.43,
+      "price": 2.31,
+      "industry": "医疗服务"
+    },
+    {
+      "code": "002242",
+      "name": "九阳股份",
+      "rate": -0.77,
+      "price": 10.31,
+      "industry": "家电行业"
+    },
+    {
+      "code": "002252",
+      "name": "上海莱士",
+      "rate": 0.43,
+      "price": 6.99,
+      "industry": "生物制品"
+    },
+    {
+      "code": "002294",
+      "name": "信立泰",
+      "rate": 2.83,
+      "price": 52.74,
+      "industry": "化学制药"
+    },
+    {
+      "code": "002297",
+      "name": "博云新材",
+      "rate": 1.01,
+      "price": 9.0,
+      "industry": "航天航空"
+    },
+    {
+      "code": "002320",
+      "name": "海峡股份",
+      "rate": -0.96,
+      "price": 8.28,
+      "industry": "航运港口"
+    },
+    {
+      "code": "002329",
+      "name": "皇氏集团",
+      "rate": -0.52,
+      "price": 3.86,
+      "industry": "食品饮料"
+    },
+    {
+      "code": "002392",
+      "name": "北京利尔",
+      "rate": -4.02,
+      "price": 7.4,
+      "industry": "装修建材"
+    },
+    {
+      "code": "002400",
+      "name": "省广集团",
+      "rate": 0.72,
+      "price": 8.34,
+      "industry": "文化传媒"
+    },
+    {
+      "code": "002416",
+      "name": "爱施德",
+      "rate": 0.87,
+      "price": 12.8,
+      "industry": "商业百货"
+    },
+    {
+      "code": "002459",
+      "name": "晶澳科技",
+      "rate": 0.99,
+      "price": 12.27,
+      "industry": "光伏设备"
+    },
+    {
+      "code": "002463",
+      "name": "沪电股份",
+      "rate": 3.85,
+      "price": 55.63,
+      "industry": "电子元件"
+    },
+    {
+      "code": "002542",
+      "name": "中化岩土",
+      "rate": 0.77,
+      "price": 3.95,
+      "industry": "工程建设"
+    },
+    {
+      "code": "002585",
+      "name": "双星新材",
+      "rate": -0.86,
+      "price": 5.79,
+      "industry": "塑料制品"
+    },
+    {
+      "code": "002648",
+      "name": "卫星化学",
+      "rate": -0.45,
+      "price": 19.89,
+      "industry": "化学原料"
+    },
+    {
+      "code": "002659",
+      "name": "凯文教育",
+      "rate": 1.1,
+      "price": 5.52,
+      "industry": "教育"
+    },
+    {
+      "code": "002785",
+      "name": "万里石",
+      "rate": 2.19,
+      "price": 30.33,
+      "industry": "装修建材"
+    },
+    {
+      "code": "002873",
+      "name": "新天药业",
+      "rate": -2.18,
+      "price": 12.55,
+      "industry": "中药"
+    },
+    {
+      "code": "002887",
+      "name": "绿茵生态",
+      "rate": -0.55,
+      "price": 9.07,
+      "industry": "环保行业"
+    },
+    {
+      "code": "002916",
+      "name": "深南电路",
+      "rate": 5.89,
+      "price": 149.92,
+      "industry": "电子元件"
+    },
+    {
+      "code": "002927",
+      "name": "泰永长征",
+      "rate": -1.02,
+      "price": 16.48,
+      "industry": "电网设备"
+    },
+    {
+      "code": "002938",
+      "name": "鹏鼎控股",
+      "rate": 3.61,
+      "price": 51.9,
+      "industry": "电子元件"
+    },
+    {
+      "code": "002960",
+      "name": "青鸟消防",
+      "rate": 0.85,
+      "price": 10.68,
+      "industry": "专用设备"
+    },
+    {
+      "code": "002984",
+      "name": "森麒麟",
+      "rate": 0.15,
+      "price": 19.62,
+      "industry": "橡胶制品"
+    },
+    {
+      "code": "003017",
+      "name": "大洋生物",
+      "rate": -1.09,
+      "price": 33.7,
+      "industry": "化学原料"
+    },
+    {
+      "code": "600009",
+      "name": "上海机场",
+      "rate": 0.09,
+      "price": 32.5,
+      "industry": "航空机场"
+    },
+    {
+      "code": "600010",
+      "name": "包钢股份",
+      "rate": 1.49,
+      "price": 2.72,
+      "industry": "钢铁行业"
+    },
+    {
+      "code": "600078",
+      "name": "澄星股份",
+      "rate": -0.47,
+      "price": 6.34,
+      "industry": "化肥行业"
+    },
+    {
+      "code": "600085",
+      "name": "同仁堂",
+      "rate": -0.24,
+      "price": 37.09,
+      "industry": "中药"
+    },
+    {
+      "code": "600105",
+      "name": "永鼎股份",
+      "rate": 1.62,
+      "price": 9.4,
+      "industry": "通信设备"
+    },
+    {
+      "code": "600141",
+      "name": "兴发集团",
+      "rate": -0.23,
+      "price": 25.88,
+      "industry": "化肥行业"
+    },
+    {
+      "code": "600158",
+      "name": "中体产业",
+      "rate": 1.75,
+      "price": 9.3,
+      "industry": "文化传媒"
+    },
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "rate": 7.11,
+      "price": 47.61,
+      "industry": "电子元件"
+    },
+    {
+      "code": "600196",
+      "name": "复星医药",
+      "rate": 0.36,
+      "price": 28.06,
+      "industry": "化学制药"
+    },
+    {
+      "code": "600216",
+      "name": "浙江医药",
+      "rate": 0.31,
+      "price": 16.23,
+      "industry": "化学制药"
+    },
+    {
+      "code": "600222",
+      "name": "太龙药业",
+      "rate": 4.5,
+      "price": 6.97,
+      "industry": "中药"
+    },
+    {
+      "code": "600239",
+      "name": "云南城投",
+      "rate": -0.8,
+      "price": 2.47,
+      "industry": "房地产服务"
+    },
+    {
+      "code": "600259",
+      "name": "广晟有色",
+      "rate": 1.27,
+      "price": 64.02,
+      "industry": "小金属"
+    },
+    {
+      "code": "600276",
+      "name": "恒瑞医药",
+      "rate": 1.55,
+      "price": 64.98,
+      "industry": "化学制药"
+    },
+    {
+      "code": "600307",
+      "name": "酒钢宏兴",
+      "rate": -1.14,
+      "price": 1.73,
+      "industry": "钢铁行业"
+    },
+    {
+      "code": "600346",
+      "name": "恒力石化",
+      "rate": 1.73,
+      "price": 17.1,
+      "industry": "化纤行业"
+    },
+    {
+      "code": "600380",
+      "name": "健康元",
+      "rate": -0.23,
+      "price": 12.87,
+      "industry": "化学制药"
+    },
+    {
+      "code": "600399",
+      "name": "抚顺特钢",
+      "rate": 0.0,
+      "price": 5.63,
+      "industry": "钢铁行业"
+    },
+    {
+      "code": "600408",
+      "name": "安泰集团",
+      "rate": -1.3,
+      "price": 2.28,
+      "industry": "煤炭行业"
+    },
+    {
+      "code": "600438",
+      "name": "通威股份",
+      "rate": 1.79,
+      "price": 21.03,
+      "industry": "光伏设备"
+    },
+    {
+      "code": "600446",
+      "name": "金证股份",
+      "rate": 1.57,
+      "price": 20.69,
       "industry": "互联网服务"
     },
     {
-      "code": "002209",
-      "name": "达 意 隆",
+      "code": "600486",
+      "name": "扬农化工",
+      "rate": 1.29,
+      "price": 69.88,
+      "industry": "农药兽药"
+    },
+    {
+      "code": "600511",
+      "name": "国药股份",
+      "rate": 0.1,
+      "price": 30.18,
+      "industry": "医药商业"
+    },
+    {
+      "code": "600537",
+      "name": "亿晶光电",
+      "rate": -1.78,
+      "price": 3.86,
+      "industry": "光伏设备"
+    },
+    {
+      "code": "600557",
+      "name": "康缘药业",
+      "rate": 0.69,
+      "price": 18.89,
+      "industry": "中药"
+    },
+    {
+      "code": "600566",
+      "name": "济川药业",
+      "rate": -0.33,
+      "price": 27.52,
+      "industry": "中药"
+    },
+    {
+      "code": "600570",
+      "name": "恒生电子",
+      "rate": 2.7,
+      "price": 38.46,
+      "industry": "软件开发"
+    },
+    {
+      "code": "600602",
+      "name": "云赛智联",
+      "rate": 0.47,
+      "price": 23.54,
+      "industry": "软件开发"
+    },
+    {
+      "code": "600606",
+      "name": "绿地控股",
+      "rate": 0.0,
+      "price": 1.94,
+      "industry": "房地产开发"
+    },
+    {
+      "code": "600623",
+      "name": "华谊集团",
+      "rate": 0.0,
+      "price": 8.67,
+      "industry": "化学原料"
+    },
+    {
+      "code": "600666",
+      "name": "奥瑞德",
+      "rate": 0.99,
+      "price": 4.07,
+      "industry": "光学光电子"
+    },
+    {
+      "code": "600684",
+      "name": "珠江股份",
+      "rate": 0.59,
+      "price": 5.13,
+      "industry": "房地产服务"
+    },
+    {
+      "code": "600713",
+      "name": "南京医药",
+      "rate": -0.74,
+      "price": 5.35,
+      "industry": "医药商业"
+    },
+    {
+      "code": "600721",
+      "name": "百花医药",
+      "rate": 1.51,
+      "price": 8.75,
+      "industry": "医疗服务"
+    },
+    {
+      "code": "600727",
+      "name": "鲁北化工",
+      "rate": -0.24,
+      "price": 8.18,
+      "industry": "化学原料"
+    },
+    {
+      "code": "600750",
+      "name": "江中药业",
+      "rate": 0.27,
+      "price": 22.36,
+      "industry": "中药"
+    },
+    {
+      "code": "600755",
+      "name": "厦门国贸",
+      "rate": 0.16,
+      "price": 6.35,
+      "industry": "贸易行业"
+    },
+    {
+      "code": "600763",
+      "name": "通策医疗",
+      "rate": 0.95,
+      "price": 46.74,
+      "industry": "医疗服务"
+    },
+    {
+      "code": "600764",
+      "name": "中国海防",
+      "rate": 7.72,
+      "price": 37.12,
+      "industry": "计算机设备"
+    },
+    {
+      "code": "600773",
+      "name": "西藏城投",
+      "rate": -0.9,
+      "price": 11.06,
+      "industry": "房地产开发"
+    },
+    {
+      "code": "600826",
+      "name": "兰生股份",
+      "rate": 0.63,
+      "price": 11.21,
+      "industry": "贸易行业"
+    },
+    {
+      "code": "600845",
+      "name": "宝信软件",
+      "rate": 2.99,
+      "price": 25.81,
+      "industry": "互联网服务"
+    },
+    {
+      "code": "600866",
+      "name": "星湖科技",
+      "rate": -1.33,
+      "price": 8.16,
+      "industry": "化学制品"
+    },
+    {
+      "code": "600867",
+      "name": "通化东宝",
+      "rate": -0.35,
+      "price": 8.46,
+      "industry": "生物制品"
+    },
+    {
+      "code": "600875",
+      "name": "XD东方电",
+      "rate": 1.01,
+      "price": 20.1,
+      "industry": "电源设备"
+    },
+    {
+      "code": "601007",
+      "name": "金陵饭店",
+      "rate": 0.13,
+      "price": 7.9,
+      "industry": "旅游酒店"
+    },
+    {
+      "code": "601208",
+      "name": "东材科技",
       "rate": 9.99,
-      "price": 16.85,
+      "price": 19.15,
+      "industry": "塑料制品"
+    },
+    {
+      "code": "601336",
+      "name": "新华保险",
+      "rate": 0.37,
+      "price": 67.44,
+      "industry": "保险"
+    },
+    {
+      "code": "601399",
+      "name": "国机重装",
+      "rate": 0.6,
+      "price": 3.37,
       "industry": "专用设备"
+    },
+    {
+      "code": "601636",
+      "name": "旗滨集团",
+      "rate": 1.77,
+      "price": 6.34,
+      "industry": "玻璃玻纤"
+    },
+    {
+      "code": "601678",
+      "name": "滨化股份",
+      "rate": -0.22,
+      "price": 4.46,
+      "industry": "化学原料"
+    },
+    {
+      "code": "601966",
+      "name": "玲珑轮胎",
+      "rate": 0.32,
+      "price": 15.52,
+      "industry": "橡胶制品"
+    },
+    {
+      "code": "603077",
+      "name": "和邦生物",
+      "rate": -0.52,
+      "price": 1.91,
+      "industry": "化学原料"
+    },
+    {
+      "code": "603185",
+      "name": "弘元绿能",
+      "rate": -0.87,
+      "price": 20.47,
+      "industry": "光伏设备"
+    },
+    {
+      "code": "603368",
+      "name": "柳药集团",
+      "rate": -0.27,
+      "price": 18.63,
+      "industry": "医药商业"
+    },
+    {
+      "code": "603538",
+      "name": "美诺华",
+      "rate": 0.04,
+      "price": 27.13,
+      "industry": "化学制药"
+    },
+    {
+      "code": "603618",
+      "name": "杭电股份",
+      "rate": -0.45,
+      "price": 6.71,
+      "industry": "电网设备"
+    },
+    {
+      "code": "603799",
+      "name": "华友钴业",
+      "rate": 6.3,
+      "price": 47.94,
+      "industry": "能源金属"
+    },
+    {
+      "code": "603908",
+      "name": "牧高笛",
+      "rate": -0.56,
+      "price": 26.7,
+      "industry": "纺织服装"
+    },
+    {
+      "code": "605077",
+      "name": "华康股份",
+      "rate": 3.57,
+      "price": 18.85,
+      "industry": "食品饮料"
+    },
+    {
+      "code": "605116",
+      "name": "奥锐特",
+      "rate": -0.7,
+      "price": 23.98,
+      "industry": "化学制药"
+    },
+    {
+      "code": "605299",
+      "name": "舒华体育",
+      "rate": 0.29,
+      "price": 10.28,
+      "industry": "家用轻工"
     }
   ]
 }
